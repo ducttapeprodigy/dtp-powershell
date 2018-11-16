@@ -1,4 +1,6 @@
-﻿param (
+# can be called with
+# powershell -noprofile -executionpolicy bypass -file c:\scripts\kwi_sequence_prod.ps1 -folder "F:\Shared\folder" -outFolder "F:\Shared\out_folder"
+param (
     [string]$folder = "F:\Shared\Prod\Comm\kwi\",
     [string]$outFolder = "F:\Shared\Prod\Comm\s\"
 )
